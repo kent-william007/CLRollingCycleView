@@ -13,6 +13,7 @@
 		370BF94D1F3D4878006E70C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370BF94B1F3D4878006E70C8 /* Main.storyboard */; };
 		370BF94F1F3D4878006E70C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370BF94E1F3D4878006E70C8 /* Assets.xcassets */; };
 		370BF9521F3D4878006E70C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370BF9501F3D4878006E70C8 /* LaunchScreen.storyboard */; };
+		37823D071F3D527700F2864A /* CLRollingCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37823D061F3D527700F2864A /* CLRollingCycleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		370BF94E1F3D4878006E70C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		370BF9511F3D4878006E70C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		370BF9531F3D4878006E70C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37823D051F3D527700F2864A /* CLRollingCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLRollingCycleView.h; sourceTree = "<group>"; };
+		37823D061F3D527700F2864A /* CLRollingCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLRollingCycleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		370BF9411F3D4878006E70C8 /* CLRollingCycleView */ = {
 			isa = PBXGroup;
 			children = (
+				37823D041F3D525D00F2864A /* class */,
 				370BF9451F3D4878006E70C8 /* AppDelegate.h */,
 				370BF9461F3D4878006E70C8 /* AppDelegate.m */,
 				370BF9481F3D4878006E70C8 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				370BF9431F3D4878006E70C8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37823D041F3D525D00F2864A /* class */ = {
+			isa = PBXGroup;
+			children = (
+				37823D051F3D527700F2864A /* CLRollingCycleView.h */,
+				37823D061F3D527700F2864A /* CLRollingCycleView.m */,
+			);
+			path = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37823D071F3D527700F2864A /* CLRollingCycleView.m in Sources */,
 				370BF94A1F3D4878006E70C8 /* ViewController.m in Sources */,
 				370BF9471F3D4878006E70C8 /* AppDelegate.m in Sources */,
 				370BF9441F3D4878006E70C8 /* main.m in Sources */,
@@ -300,6 +314,7 @@
 				370BF9581F3D4878006E70C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
